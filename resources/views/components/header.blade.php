@@ -44,8 +44,7 @@
                         <h1 class="text-2xl sm:text-3xl md:text-4xl lg:text-5xl xl:text-5xl font-serif font-bold mt-8 mb-4 " x-text="item.h1"></h1>
                         <p class="text-sm sm:text-base md:text-lg lg:text-xl xl:text-2xl px-4 sm:px-6 md:px-8 lg:px-10 mb-4" x-text="item.paragraph1"></p>
                         <p class="text-sm sm:text-base md:text-lg lg:text-xl xl:text-2xl px-4 sm:px-6 md:px-8 lg:px-10 mb-4" x-text="item.paragraph2"></p>
-                        <button @click="batch = index + 1" class="bg-white text-primary border border-primary hover:bg-primary hover:text-white hover:border hover:border-white focus:bg-primary focus:text-white focus:border focus:border-white focus:outline-none py-2 px-6 rounded-full text-base sm:text-lg md:text-xl lg:text-2xl xl:text-3xl font-semibold shadow-md transition duration-300" x-text="item.button"></button>
-                    </div>
+                        <button @click="batch === batches.length - 1 ? window.location.href='/about' : batch = index + 1" class="bg-white text-primary border border-primary hover:bg-primary hover:text-white hover:border hover:border-white focus:bg-primary focus:text-white focus:border focus:border-white focus:outline-none py-2 px-6 rounded-full text-base sm:text-lg md:text-xl lg:text-2xl xl:text-3xl font-semibold shadow-md transition duration-300" x-text="item.button"></button>
                 </template>
             </div>
         </div>

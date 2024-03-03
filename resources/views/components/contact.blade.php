@@ -1,5 +1,5 @@
 <div class="flex flex-col items-center px-2 sm:px-4 md:px-8 lg:px-40 border-t-2 border-primary pt-4">
-    <h1 class="font-bold text-gray-800 uppercase text-2xl sm:text-3xl md:text-4xl lg:text-5xl hover:text-gray-700" id="projects">
+    <h1 class="font-bold text-gray-800 uppercase text-2xl sm:text-3xl md:text-4xl lg:text-5xl hover:text-gray-700" id="contact">
         Contact Me
     </h1>
     <p class="text-xs md:text-sm text-center  text-gray-600">
@@ -25,7 +25,7 @@
                 <textarea id="message" name="message" rows="4" placeholder="Enter your message" class="w-full border rounded-md px-3 py-2 focus:outline-none focus:border-primary" required></textarea>
             </div>
             <div class="text-center">
-                <button type="submit" class="bg-primary text-white py-2 px-4 rounded-md border border-red-900 hover:bg-white hover:text-primary hover:border-bg-primary focus:bg-white focus:text-primary focus:border-blue-800 focus:outline-none">
+                <button type="submit" class="bg-primary text-white py-2 px-4 rounded-md border border-white hover:bg-white hover:text-primary hover:border-primary focus:bg-white focus:text-primary focus:border-primary focus:outline-none transistion duration-300">
                     Send Message
                 </button>
             </div>

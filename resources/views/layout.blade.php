@@ -15,6 +15,10 @@
         .font-family-karla {
             font-family: karla;
         }
+
+        h1, h2 {
+            font-family:'Goudy Old Style'!important;
+        }
     </style>
 
     <!-- Font Awesome -->
